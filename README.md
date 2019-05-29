@@ -29,18 +29,6 @@ To take care of the food you eat, you decided to create a nutrition app that wil
 
 ## Instructions
 
-### Bulma installation
-
-We will use [Bulma](https://bulma.io/) for the design :)
-
-```sh
-$ npm install bulma --save
-```
-
-```javascript
-import 'bulma/css/bulma.css';
-```
-
 
 ### Import a JSON
 
@@ -63,41 +51,6 @@ Create a `FoodBox` component that takes at least `food` as a prop and displays a
 
 You can use this HTML snippet to display properly the `FoodBox`:
 
-```html
-<div className="box">
-  <article className="media">
-    <div className="media-left">
-      <figure className="image is-64x64">
-        <img src="https://i.imgur.com/eTmWoAN.png" />
-      </figure>
-    </div>
-    <div className="media-content">
-      <div className="content">
-        <p>
-          <strong>Pizza</strong> <br />
-          <small>400 cal</small>
-        </p>
-      </div>
-    </div>
-    <div className="media-right">
-      <div className="field has-addons">
-        <div className="control">
-          <input
-            className="input"
-            type="number" 
-            value="1"
-          />
-        </div>
-        <div className="control">
-          <button className="button is-info">
-            +
-          </button>
-        </div>
-      </div>
-    </div>
-  </article>
-</div>
-```
 
 ![](https://i.imgur.com/bY9i5Rw.png)
 
